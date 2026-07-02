@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎯 RankSync — TalentLens AI
+# 🎯 RankSync — AI
 
 ### Intelligent Candidate Discovery & Ranking Engine
 
@@ -24,7 +24,7 @@ A Series A startup, **Redrob AI**, needs to fill a Senior AI Engineer role from 
 
 ## ✅ Our Solution
 
-**TalentLens AI** — a 6-component weighted scoring engine that ranks all 100,000 candidates and produces an honest, defensible top-100 shortlist with unique per-candidate reasoning.
+**RankSync AI** — a 6-component weighted scoring engine that ranks all 100,000 candidates and produces an honest, defensible top-100 shortlist with unique per-candidate reasoning.
 
 ```
 Career Evidence (32%)  +  Skill Depth (28%)  +  Behavioral Signals (22%)
