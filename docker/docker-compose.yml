@@ -1,0 +1,24 @@
+version: "3.9"
+services:
+  ranksync-demo:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./backend/dataset:/app/backend/dataset:ro
+      - ./backend/cache:/app/backend/cache
+    restart: unless-stopped
+ 
+  ranksync-api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    command: uvicorn backend.api.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/dataset:/app/backend/dataset:ro
+    restart: unless-stopped
+

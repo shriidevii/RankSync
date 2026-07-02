@@ -1,0 +1,12 @@
+backend/dataset/
+backend/cache/
+backend/output/
+.env
+*.npy
+*.pkl
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+submission.csv
+ 
